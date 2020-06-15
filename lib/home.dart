@@ -94,7 +94,7 @@ class _HomeState extends State<Home>{
         child: Text("I can't decide")
       ),
       SizedBox(height: 10),
-      Text("You voted " + _numberOfVotes.toString() + " ideas")
+      Text("You voted " + (_numberOfVotes-1).toString() + " ideas")
     ];
   }
 
